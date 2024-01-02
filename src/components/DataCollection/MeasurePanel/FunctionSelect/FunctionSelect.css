@@ -1,0 +1,41 @@
+.instrument-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+select,
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  outline: none;
+}
+
+select {
+  flex: 1;
+  background-color: #f7f7f7;
+}
+
+input {
+  flex: 2;
+  background-color: #f7f7f7;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

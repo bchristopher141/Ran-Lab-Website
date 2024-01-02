@@ -1,0 +1,13 @@
+.live-plot {
+  width: 100%; /* Ensure the chart takes up the full width of its container */
+  height: 100%;
+}
+
+.live-plot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  width: 50%;
+  height: 100%;
+}

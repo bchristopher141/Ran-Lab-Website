@@ -1,0 +1,30 @@
+.menu-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list li {
+  margin-right: 20px;
+}
+
+.menu-list li button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu-list li button:hover {
+  color: #ccc;
+}
+.menu-list li button:active {
+  color: #ccc;
+}

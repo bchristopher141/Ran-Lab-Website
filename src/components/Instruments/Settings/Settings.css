@@ -1,0 +1,38 @@
+.settings {
+  background-color: #8adbc1;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.settings button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #006747;
+  background-color: #006747;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.settings button:hover,
+.settings button:active {
+  background-color: #00ac75;
+  border-color: #00ac75;
+}
+
+.settings button.alternative {
+  color: #00ac75;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.settings button.alternative:hover,
+.settings button.alternative:active {
+  background-color: #ddb3f8;
+}
